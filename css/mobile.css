@@ -401,6 +401,7 @@ margin-top: 72px;
             align-items: center;
             border-radius: 50%;
             background-color: #4D5AE5;
+            text-align: center;
         }
         .social-link:is(:hover, :focus) {
             background-color: #404BBF;
@@ -410,6 +411,8 @@ margin-top: 72px;
         }
         .bord-soc-icon {
             fill: chartreuse;
+            text-align: center;
+            
         }
 
 
@@ -530,6 +533,7 @@ margin-top: 72px;
             width: 40px;
             height: 40px;
             justify-content: center;
+          
         }
         .foot-a {
             width: 100%;
