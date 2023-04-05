@@ -90,16 +90,75 @@ body {
  }
 
     
- .header-list {
-   display: none;
+
+ .header-item:focus,
+ .header-item:hover {
+     color: #404BBF;
  }
-    
- .header-item {
-    display: none;
+ 
+ .header-link {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ position: relative;
+ padding-top: 24px;
+   padding-bottom: 24px;
+ 
  }
-    .adress {
-        display: none;
-     }
+ 
+ .header-link::after {
+     content: '';
+     display: block;
+     width: 100%;
+     height: 4px;
+     background-color: #404BBF;
+     border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+   opacity: 0;
+   transition: transform 250ms;
+   transform: scaleX(0);
+   
+ 
+ }
+ 
+ .header-link:hover::after {
+     transform: scaleX(1);
+     opacity: 1;
+ }
+ 
+ 
+ .header-mail { 
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ 
+ }
+ 
+ .header-mail:focus {
+     color: #404BBF;
+ }
+ 
+ .header-mail:hover {
+     color: #404BBF;
+ }
+ .header-tel {
+ font-size: 16px;
+ line-height: 1.5;
+ padding-top: 25px;
+ padding-bottom: 25px;
+ }
+ 
+ .header-tel:focus {
+     color: #404BBF;
+ }
+ 
+ .header-tel:hover{
+     color: #404BBF;
+ }
+ 
     
     /*   menu   */
 
@@ -107,11 +166,13 @@ body {
         max-width: 346px;
         padding-left: 16px;
         padding-right: 16px;
+        display: none;
        
 
     }
     .but-menu{
     padding: 16px 32px;
+   display: none;
     }
     .menu {
 
@@ -125,12 +186,14 @@ body {
         background-color:  #FFFFFF;;
         padding-top: 48px;
         padding-bottom: 48px;
+        display: none;
     }
  .container-mob {
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        display: none;
     }
     .menu-close {
         display: block;
@@ -176,8 +239,12 @@ color: #434455;
     .flexx {
         display: flex;
         justify-content:space-between;
+        
         }
 
+        .svg-menu{
+            display: none;
+        }
         .open-menu {
       
         margin-left: 0 auto;
@@ -817,4 +884,17 @@ top: 602px;
     .feature-text {
     }
 
+}
+
+
+/*  new */
+
+.order-input-send {
+    background-color: #FCFCFC;
+    padding-top: 8px;
+    padding-left: 16px;
+}
+
+.modal-icon{
+    position: absolute;
 }
