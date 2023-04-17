@@ -61,10 +61,7 @@ body {
  text-transform: uppercase
  }   
 
-.header-navigation {
-   
-   
- }
+
  
  .div-header-container {
     display: flex;
@@ -79,6 +76,7 @@ body {
  .header-item {
     display: none;
  }
+ 
     .adress {
         display: none;
      }
@@ -721,16 +719,7 @@ top: 602px;
      /* buttons */
 
 
-     .sec-portfo {
-    }
-    .container {
-    }
-    .visually-hidden {
-    }
-    .list {
-    }
-    .spisoc {
-    }
+    
     .but-portfolio {
         display: flex;
         gap: 24px;

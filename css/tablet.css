@@ -7,11 +7,8 @@
 
 /*---------fonts------*/
 
-@media screen and (min-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-}
+
+
 @media screen and (min-width: 768px)
 {
     
@@ -558,9 +555,8 @@ margin-top: 72px;
             color: #404BBF;
 
     }
-        .link {
-        }
-        .test-icon {
+       
+    .test-link:hover .test-icon {
             fill: currentColor ;
         }
 
@@ -812,16 +808,7 @@ top: 602px;
      /* buttons */
 
 
-     .sec-portfo {
-    }
-    .container {
-    }
-    .visually-hidden {
-    }
-    .list {
-    }
-    .spisoc {
-    }
+   
     .but-portfolio {
         display: flex;
         gap: 24px;
@@ -869,15 +856,11 @@ top: 602px;
         border: 0.5px solid #F4F4FD;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
-    .all {
-    }
-    .cover-war {
-    }
+   
     .cover-text {
         display: none;
     }
-    .cardss {
-    }
+  
     .feature {
         text-decoration: none;
     }
