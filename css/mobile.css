@@ -68,18 +68,20 @@ body {
     justify-content: space-between;
  }
 
-    
- .header-list {
-   display: none;
- }
-    
- .header-item {
-    display: none;
- }
- 
-    .adress {
-        display: none;
-     }
+    @media screen (min-width: 428px) {
+        .header-list {
+            display: none;
+          }
+             
+          .header-item {
+             display: none;
+          }
+          
+             .adress {
+                 display: none;
+              }  
+    }
+
     
     /*   menu   */
 
