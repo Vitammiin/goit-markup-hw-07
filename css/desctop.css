@@ -22,13 +22,8 @@
     text-decoration: none; 
     display: block;
     
-   
- 
  }
 
-    
- 
- 
  .header-navigation {
     display: flex;
     justify-content: center;
@@ -165,10 +160,7 @@ padding: 16px 32px;
 
 }
 
-.but-ind {
 
-    
-}
 .button:focus {
 
     background-color: #404BBF;
@@ -433,22 +425,12 @@ width: 264px;
  }
 
 
-
-
-
-
-
-
-
  .feature-li:hover{
      box-shadow: 1px 0px 2px rgba(46, 47, 66, 0.08);
      border-radius: 1px ;
      box-shadow: 0px, 1px
      rgba(46, 47, 66, 0.16);
  }
-
-
-
 
  .all {
     text-decoration: none;

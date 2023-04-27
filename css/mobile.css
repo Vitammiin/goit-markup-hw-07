@@ -21,8 +21,7 @@ body {
     max-width: 428px;
     padding-left: 16px;
     padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
   }
 /*---------text no point-----*/
 .link {
@@ -34,7 +33,10 @@ body {
  
 
 /*-----------header------------*/
-
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+}
  .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
@@ -50,6 +52,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    padding-bottom: 25px;
+    padding-top: 25px;
     }
 .logo-web {
     color: #4D5AE5; 
@@ -58,17 +62,23 @@ body {
  font-size: 18px;
  line-height: 1.33;
  letter-spacing: 0.03em;
- text-transform: uppercase
+ text-transform: uppercase;
+ margin-left: 16px;
+
  }   
 
-
+.svg-menu{
+    padding-right: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
  
  .div-header-container {
     display: flex;
     justify-content: space-between;
  }
 
-    @media screen (min-width: 428px) {
+ @media screen and (max-width: 428px) {
         .header-list {
             display: none;
           }
@@ -95,9 +105,7 @@ body {
     .but-menu{
     padding: 16px 32px;
     }
-    .menu {
-
-    }
+  
     .mob-menu {
         width: 100%;
         height: 100%;
@@ -118,17 +126,14 @@ body {
         display: block;
         margin-left: auto;
         margin-bottom: 16px;
+        margin-top: 40px;
     }
-    .menu-container-list {
-        
-    }
+    
     .menu-container-item:not(:last-child) {
         margin-bottom: 40px;
        
     }
-    .link {
-        
-    }
+   
     .menu-container-link {
  font-weight: 700;
 font-size: 36px;
@@ -141,7 +146,7 @@ color: #2E2F42;
     }
 
 
-    .menu-mail {
+.menu-mail {
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
@@ -256,13 +261,6 @@ margin-top: 72px;
  
     /* ----  section strategi -- */ 
     
-    
-    .strategy {
-
-    }
-
-  
-
     .visually-hidden {
         position: absolute;
         white-space: nowrap;
@@ -281,8 +279,6 @@ margin-top: 72px;
         list-style: none;
     }
 
-   
-    
     .strat-fon {
         display: none;
         
@@ -411,8 +407,7 @@ margin-top: 72px;
         }
         .bord-soc-icon {
             fill: chartreuse;
-            text-align: center;
-            
+            text-align: center;   
         }
 
 
@@ -467,20 +462,14 @@ margin-top: 72px;
             color: #404BBF;
 
     }
-        .link {
-        }
+     
         .test-icon {
             fill: currentColor ;
         }
-
         /* --- footer ---- */
-       
-       
         .footer {
-            background-color: #2E2F42;
-           
-        }
-        
+            background-color: #2E2F42;   
+        }  
         .div-footer {
             display: block;
         }
@@ -494,9 +483,7 @@ margin-top: 72px;
             color: #F4F4FD;
             text-transform: uppercase;
         }
-
-
-        .foot-web {
+    .foot-web {
             color: #4D5AE5;
         }
         .footer-text {
@@ -505,14 +492,12 @@ margin-top: 72px;
             letter-spacing: 0.02em;
             color: #E7E9FC;
             margin-top: 16px;
-            width: 264px;
-            
-        }
+            width: 264px;            
+ }
         .foot-t {
             text-align: center;
             padding-top: 96px;
             padding-bottom: 72px;
-            
         }
         .social-div {
          
@@ -554,9 +539,6 @@ margin-top: 72px;
 
 .input {
     background-color: #2E2F42;
-
-
-
 }
 .but-sub {
    
@@ -567,13 +549,9 @@ margin-top: 72px;
 .flexx{
     margin-top: 24px;
     margin-bottom: 24px;
-    display: flex;
-   
+    display: flex;  
 }
-.svg-menu {
-    margin-left: 249px;
 
-}
 
 
 
@@ -769,17 +747,15 @@ top: 602px;
         border: 0.5px solid #F4F4FD;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
-    .all {
-    }
-    .cover-war {
-    }
+
     .cover-text {
         display: none;
     }
-    .cardss {
-    }
+    
     .feature {
         text-decoration: none;
     }
-    .feature-text {
+   
+    .header-list{
+        display: none;
     }
