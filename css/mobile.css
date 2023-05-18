@@ -16,13 +16,24 @@ body {
     
 }
 
-@media  screen and (max-width: 480px), (max-width: 779px) {
 
 .container {
-    max-width: 480px;
+    min-width: 320px;
+    max-width: 428px;
     padding-left: 16px;
     padding-right: 16px;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .container-modall{
+    min-width: 320px;
+    max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid #404BBF;
   }
 /*---------text no point-----*/
 .link {
@@ -98,13 +109,7 @@ body {
     
     /*   menu   */
 
-    .container-mob {
-        max-width: 346px;
-        padding-left: 16px;
-        padding-right: 16px;
-       
 
-    }
     .but-menu{
     padding: 16px 32px;
     }
@@ -527,8 +532,7 @@ margin-top: 72px;
         .foot-li {
             width: 40px;
             height: 40px;
-            justify-content: center;
-          
+            justify-content: center; 
         }
         .foot-a {
             width: 100%;
@@ -800,7 +804,7 @@ top: 602px;
     }
 
     .modal-bytton{
-        position: absolute;
+      
         top: 24px;
         right: 24px;
         background-color: #E7E9FC;
@@ -820,9 +824,9 @@ top: 602px;
         background-color: #404BBF;
         color: #FFFFFF;
       }
-
-      .sectionone{
-        padding: 0px;
+.mod-cloz-but{
+    display: flex;
+    flex-direction: row-reverse;
       }
 
       .subscribe-p{
@@ -1198,17 +1202,11 @@ top: 602px;
     justify-content: space-between;
 }
 
-  .svg-menu{
-    
-    margin-left: 270px;
-  }
+ 
   .blank{
     margin-bottom: 48px;
   }
-  .svg-menu{
-    display: flex;
-
-  }
+ 
   .feature { 
     font-size: 20px;
     line-height: 1.2;
@@ -1223,12 +1221,7 @@ top: 602px;
     justify-content: center;
     
     }
-  .our-team{
-    padding-left: 20%;
-  }
-  .fon-imag{
-    
-  }
+
   .button-portfolio:hover{
     color: #FCFCFC;
     background-color: #404BBF;
@@ -1243,7 +1236,7 @@ top: 602px;
     padding: 0;
 }
 .feature-li{
-    width: 396px;
+   
     padding: 0;
 }
 .img-portf{
@@ -1274,12 +1267,121 @@ color: #8E8F99;
 .button{
     margin-bottom: 0px;
 }
-.container{
-    min-width: 320px;
-    margin-left: auto;
+
+.mob-menu {
+    
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+.mod-cloz-but{
+    margin-right: 40px;
+}
+.div-header-container{
+    display: flex;
+    align-items: center;
+}
+.mob-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.svg-menu {
     margin-right: auto;
 }
-.container-responsive{
-    max-width: 1140px;
+.adress-menu {
+    margin-bottom: 48px;
+    padding: 0;
+    margin-top: 284px;
+    justify-content: start;
 }
+.menu-mail{
+    padding-left: 47px;
+}
+
+.social-list {
+    margin-top: 8px;
+    justify-content: start;
+    margin-left: 40px;
+}
+.our-team{
+    padding: 0;
+  
+}
+.fon-imag{
+    margin: 0 auto;
+}
+.social-list{
+    margin:0 auto;
+    justify-content: center;
+}
+.sectionone{
+    padding: 0;
+}
+.hero{
+    margin: 0;
+}
+.feature{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+}
+.feature-text{
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: 16px;
+    letter-spacing: 2%;
+
+}
+.capital{
+    padding: 0;
+    margin-bottom: 72px;
+    padding-top: 96px;
+    margin-top: 0;
+}
+.footer {
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+.footer-logo {
+    padding-top: 0;
+    margin-bottom: 16px;
+}
+.footer-text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: 16px;
+   margin: 0 auto;
+   margin-bottom: 72px;
+}
+.foot-soc-text{
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: 16px;
+}
+.h2-subscribe{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+}
+.but-subscribe{
+    margin: 0 auto;
+    padding: 14px 29px;
+}
+.svg-menu{
+display: flex;
+margin-left: 80%;
+
+}
+.feature-port-n{
+    
+   text-align: justify;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+}
+.feature-text-port{
+    text-align: justify;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
 }

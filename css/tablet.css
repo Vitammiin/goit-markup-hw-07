@@ -20,6 +20,17 @@
 
 @media  screen and (min-width: 780px) {
 
+
+
+.container {
+    
+    max-width: 720px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
 /* - mobil effect */
 root {
 --primary-text-color: #2E2F42;
@@ -56,9 +67,13 @@ border-bottom: 1px solid #E7E9FC;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-item{
+display: flex;
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: linear;
+}
+.adress{
+    display: flex;
 }
 
 .header-item:is(:hover, :focus) {
@@ -940,12 +955,8 @@ margin-left: 25%;
 
 }
 
-
-
 .input-wrap {
 margin-top: 4px;
-
-
 }
 
 .modal-textarea-text {
@@ -1092,14 +1103,7 @@ display: none;
   }
 
   
-  .container {
-    width: 100%;
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    
-    }
+
     .adress-flex{display: block;}
 
     .header-mail {
@@ -1140,4 +1144,47 @@ display: none;
     .social-list{
     margin-top: 8px;
 }
+.feature-li{
+    height: auto;
+}
+.feature-port-n{
+    
+    text-align: justify;
+     font-family: Roboto;
+     font-weight: 500;
+     font-size: 20px;
+ }
+ .feature-text-port{
+    text-align: left;
+     text-align: justify;
+     font-family: Roboto;
+     font-weight: 400;
+     font-size: 16px;
+}
+.sec-portfo{
+    padding-top: 48px;
+}
+.input-subscribe{
+    margin-bottom: 0;
+}
+.foot-soc-text{
+    text-align: left;
+}
+.social-div{
+    margin-left: 24px;
+}
+.ul-but-portfolio{
+    padding: 0;
+}
+
+.blank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .feature-li {
+    flex-basis: 48%; /* Adjust this value to control the width of each column */
+    margin-bottom: 20px; /* Add margin between items */
+  }
 }
